@@ -1,0 +1,63 @@
+[0.011s] Invoking command in '/home/dowling/ros2_ws/src/build/bump_go': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dowling/ros2_ws/install/mirte_test:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dowling/ros2_ws/src/examples/bump_go -DCMAKE_INSTALL_PREFIX=/home/dowling/ros2_ws/src/install/bump_go
+[0.138s] -- The C compiler identification is GNU 13.3.0
+[0.249s] -- The CXX compiler identification is GNU 13.3.0
+[0.272s] -- Detecting C compiler ABI info
+[0.393s] -- Detecting C compiler ABI info - done
+[0.408s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.408s] -- Detecting C compile features
+[0.409s] -- Detecting C compile features - done
+[0.424s] -- Detecting CXX compiler ABI info
+[0.574s] -- Detecting CXX compiler ABI info - done
+[0.584s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.584s] -- Detecting CXX compile features
+[0.585s] -- Detecting CXX compile features - done
+[0.592s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.769s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.936s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.016s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.042s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.072s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.104s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.226s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.234s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.345s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.367s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.391s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.505s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.590s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.717s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.718s] -- Configured cppcheck include dirs: 
+[1.718s] -- Configured cppcheck exclude dirs and/or files: 
+[1.719s] -- Added test 'lint_cmake' to check CMake code style
+[1.720s] -- Added test 'uncrustify' to check C / C++ code style
+[1.721s] -- Configured uncrustify additional arguments: 
+[1.722s] -- Added test 'xmllint' to check XML markup files
+[1.724s] -- Configuring done (1.7s)
+[1.735s] -- Generating done (0.0s)
+[1.739s] -- Build files have been written to: /home/dowling/ros2_ws/src/build/bump_go
+[1.748s] Invoked command in '/home/dowling/ros2_ws/src/build/bump_go' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dowling/ros2_ws/install/mirte_test:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dowling/ros2_ws/src/examples/bump_go -DCMAKE_INSTALL_PREFIX=/home/dowling/ros2_ws/src/install/bump_go
+[1.749s] Invoking command in '/home/dowling/ros2_ws/src/build/bump_go': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dowling/ros2_ws/install/mirte_test:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dowling/ros2_ws/src/build/bump_go -- -j12 -l12
+[1.804s] [ 50%] [32mBuilding CXX object CMakeFiles/bump_go.dir/src/bump_go.cpp.o[0m
+[4.672s] [100%] [32m[1mLinking CXX executable bump_go[0m
+[4.811s] [100%] Built target bump_go
+[4.824s] Invoked command in '/home/dowling/ros2_ws/src/build/bump_go' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dowling/ros2_ws/install/mirte_test:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dowling/ros2_ws/src/build/bump_go -- -j12 -l12
+[4.835s] Invoking command in '/home/dowling/ros2_ws/src/build/bump_go': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dowling/ros2_ws/install/mirte_test:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dowling/ros2_ws/src/build/bump_go
+[4.855s] -- Install configuration: ""
+[4.855s] -- Installing: /home/dowling/ros2_ws/src/install/bump_go/lib/bump_go/bump_go
+[4.855s] -- Set non-toolchain portion of runtime path of "/home/dowling/ros2_ws/src/install/bump_go/lib/bump_go/bump_go" to ""
+[4.856s] -- Installing: /home/dowling/ros2_ws/src/install/bump_go/share/ament_index/resource_index/package_run_dependencies/bump_go
+[4.856s] -- Installing: /home/dowling/ros2_ws/src/install/bump_go/share/ament_index/resource_index/parent_prefix_path/bump_go
+[4.856s] -- Installing: /home/dowling/ros2_ws/src/install/bump_go/share/bump_go/environment/ament_prefix_path.sh
+[4.856s] -- Installing: /home/dowling/ros2_ws/src/install/bump_go/share/bump_go/environment/ament_prefix_path.dsv
+[4.856s] -- Installing: /home/dowling/ros2_ws/src/install/bump_go/share/bump_go/environment/path.sh
+[4.856s] -- Installing: /home/dowling/ros2_ws/src/install/bump_go/share/bump_go/environment/path.dsv
+[4.856s] -- Installing: /home/dowling/ros2_ws/src/install/bump_go/share/bump_go/local_setup.bash
+[4.856s] -- Installing: /home/dowling/ros2_ws/src/install/bump_go/share/bump_go/local_setup.sh
+[4.857s] -- Installing: /home/dowling/ros2_ws/src/install/bump_go/share/bump_go/local_setup.zsh
+[4.857s] -- Installing: /home/dowling/ros2_ws/src/install/bump_go/share/bump_go/local_setup.dsv
+[4.857s] -- Installing: /home/dowling/ros2_ws/src/install/bump_go/share/bump_go/package.dsv
+[4.857s] -- Installing: /home/dowling/ros2_ws/src/install/bump_go/share/ament_index/resource_index/packages/bump_go
+[4.857s] -- Installing: /home/dowling/ros2_ws/src/install/bump_go/share/bump_go/cmake/bump_goConfig.cmake
+[4.857s] -- Installing: /home/dowling/ros2_ws/src/install/bump_go/share/bump_go/cmake/bump_goConfig-version.cmake
+[4.857s] -- Installing: /home/dowling/ros2_ws/src/install/bump_go/share/bump_go/package.xml
+[4.857s] Invoked command in '/home/dowling/ros2_ws/src/build/bump_go' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dowling/ros2_ws/install/mirte_test:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dowling/ros2_ws/src/build/bump_go
